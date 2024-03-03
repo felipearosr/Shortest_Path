@@ -2,18 +2,6 @@
 
 This repository contains a Jupyter Notebook demonstrating the use of various pathfinding algorithms on a road network graph generated from OpenStreetMap data. The notebook explores the implementation and effectiveness of different pathfinding techniques.
 
-## Inspiration
-
-This project was inspired by the work found in [santifiorino/maps-pathfinding](https://github.com/santifiorino/maps-pathfinding/tree/main). We expanded on the original concepts and adapted the techniques for our specific use case and dataset.
-
-## Notebook Summary
-
-- **Setup and Graph Preparation**: Import necessary libraries, load graph data from OSMnx, and prepare the graph by setting default speeds and cleaning up attributes.
-- **Edge and Node Styling Functions**: Define functions for styling the nodes and edges based on their state during the pathfinding process.
-- **Graph Plotting Function**: Implement a function to visualize the graph with the applied styles.
-- **Pathfinding Algorithms**: Detailed exploration of Dijkstra's Algorithm, A* Algorithm, and Breadth-First Search, including their implementation and execution.
-- **Path Reconstruction**: Reconstruct and visualize paths from the start node to the destination after finding paths using the algorithms.
-
 ## Algorithms Explained
 
 In this notebook, we explore the following pathfinding algorithms:
@@ -40,6 +28,18 @@ Follow these steps to set up and run the pathfinding notebook:
    ```bash
    pip install -r requirements.txt
    ```
+
+## Inspiration
+
+This project was inspired by the work found in [santifiorino/maps-pathfinding](https://github.com/santifiorino/maps-pathfinding/tree/main). We expanded on the original concepts and adapted the techniques for our specific use case and dataset.
+
+## Notebook Summary
+
+- **Setup and Graph Preparation**: Import necessary libraries, load graph data from OSMnx, and prepare the graph by setting default speeds and cleaning up attributes.
+- **Edge and Node Styling Functions**: Define functions for styling the nodes and edges based on their state during the pathfinding process.
+- **Graph Plotting Function**: Implement a function to visualize the graph with the applied styles.
+- **Pathfinding Algorithms**: Detailed exploration of Dijkstra's Algorithm, A* Algorithm, and Breadth-First Search, including their implementation and execution.
+- **Path Reconstruction**: Reconstruct and visualize paths from the start node to the destination after finding paths using the algorithms.
 
 ## Requirements
 
