@@ -1,40 +1,31 @@
-# Pathfinding Algorithms comparasion
+# Pathfinding using Various Algorithms
 
-This repository contains a Jupyter Notebook demonstrating the use of various pathfinding algorithms on a road network graph generated from OpenStreetMap data. The notebook explores the differences between Dijkstra's Algorithm, A* Algorithm, and Breadth-First Search (BFS) in terms of efficiency and path optimality.
+This repository contains a Jupyter Notebook demonstrating the use of various pathfinding algorithms on a road network graph generated from OpenStreetMap data. The notebook explores the implementation and effectiveness of different pathfinding techniques.
+
+## Inspiration
+
+This project was inspired by the work found in [santifiorino/maps-pathfinding](https://github.com/santifiorino/maps-pathfinding/tree/main). We expanded on the original concepts and adapted the techniques for our specific use case and dataset.
 
 ## Notebook Summary
 
 - **Setup and Graph Preparation**: Import necessary libraries, load graph data from OSMnx, and prepare the graph by setting default speeds and cleaning up attributes.
 - **Edge and Node Styling Functions**: Define functions for styling the nodes and edges based on their state during the pathfinding process.
 - **Graph Plotting Function**: Implement a function to visualize the graph with the applied styles.
-- **Pathfinding Algorithms**: Explore the implementation and execution of Dijkstra's Algorithm, A* Algorithm, and Breadth-First Search.
-- **Path Reconstruction**: After finding paths using the algorithms, reconstruct and visualize the paths from the start node to the destination.
+- **Pathfinding Algorithms**: Detailed exploration of Dijkstra's Algorithm, A* Algorithm, and Breadth-First Search, including their implementation and execution.
+- **Path Reconstruction**: Reconstruct and visualize paths from the start node to the destination after finding paths using the algorithms.
 
-## Results Summary
+## Algorithms Explained
 
-The following results were obtained from executing the pathfinding algorithms:
+In this notebook, we explore the following pathfinding algorithms:
 
 ### Dijkstra's Algorithm
-- **Iterations**: 5417
-- **Distance**: 6.956 km
-- **Average Speed**: 40 km/h
-- **Total Time**: 10.43 minutes
+A classic algorithm for finding the shortest paths from a source node to all other nodes in a graph, which may represent, for example, road networks.
 
 ### A* Algorithm
-- **Iterations**: 1536
-- **Distance**: 6.975 km
-- **Average Speed**: 40 km/h
-- **Total Time**: 10.46 minutes
+An extension of Dijkstra's Algorithm, providing faster pathfinding solutions by using heuristics to guide its search.
 
 ### Breadth-First Search (BFS)
-- **Iterations**: 6780
-- **Distance**: 8.376 km
-- **Average Speed**: 40 km/h
-- **Total Time**: 12.56 minutes
-
-## Discussion
-
-The notebook provides insights into how different algorithms perform in terms of iterations (computational effort) and the optimality of the path found (in terms of distance and total travel time). While Dijkstra's and A* algorithms provide similar results and are more efficient for weighted graphs, BFS, although not optimal for weighted paths, gives a unique perspective on unweighted shortest paths.
+A simple algorithm for traversing or searching tree or graph data structures, exploring the neighbor nodes at the current depth prior to moving on to the nodes at the next depth level.
 
 ## How to Use
 
