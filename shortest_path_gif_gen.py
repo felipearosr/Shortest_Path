@@ -76,7 +76,8 @@ def dijkstra(orig, dest, plot=False):
             if plot:
                 plot_graph(step)  # Save final step before returning
             return
-        if G.nodes[node]["visited"]: continue
+        if G.nodes[node]["visited"]:
+            continue
         G.nodes[node]["visited"] = True
         for edge in G.out_edges(node):
             style_visited_edge((edge[0], edge[1], 0))
