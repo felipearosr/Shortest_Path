@@ -1,4 +1,4 @@
-# Pathfinding using Various Algorithms
+# Maps Pathfinding using Various Algorithms
 
 This repository contains a Jupyter Notebook demonstrating the use of various pathfinding algorithms on a road network graph generated from OpenStreetMap data. The notebook explores the implementation and effectiveness of different pathfinding techniques.
 
