@@ -29,9 +29,17 @@ A simple algorithm for traversing or searching tree or graph data structures, ex
 
 ## How to Use
 
-1. Clone this repository to your local machine.
-2. Ensure you have Jupyter Notebook and the required libraries installed.
-3. Open the notebook in Jupyter and run the cells to see each algorithm in action.
+Follow these steps to set up and run the pathfinding notebook:
+
+1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/felipearosr/Shortest_Path.git
+   ```
+
+2. **Install Requirements**: Navigate to the cloned repository directory in your terminal or command prompt and install the necessary Python libraries using:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Requirements
 
