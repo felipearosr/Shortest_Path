@@ -30,7 +30,12 @@ Follow these steps to set up and run the pathfinding notebook:
    git clone https://github.com/felipearosr/Shortest_Path.git
    ```
 
-2. **Install Requirements**: Navigate to the cloned repository directory in your terminal or command prompt and install the necessary Python libraries using:
+2. **Create a conda environment**:
+```bash
+conda create -n path python==3.11 -y && source activate path
+```
+
+3. **Install Requirements**: Navigate to the cloned repository directory in your terminal or command prompt and install the necessary Python libraries using:
    ```bash
    pip install -r requirements.txt
    ```
